@@ -1,29 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Contact - Prosperitas</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="assets/img/logo.png" class="logo" />
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="products.html">Products</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <header><h1>Contact Us</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
   <section>
-    <h2>Contact Us</h2>
-    <p>Email: prosperitasipl@gmail.com</p>
-    <p>WhatsApp: <a href="https://wa.me/918141485837" target="_blank">+91 81414 85837</a></p>
-    <form action="https://formspree.io/f/mwkgrwoy" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="_replyto" placeholder="Your Email" required />
-      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label>Name: <input type="text" name="name" required></label><br>
+      <label>Email: <input type="email" name="email" required></label><br>
+      <label>Message: <textarea name="message" required></textarea></label><br>
       <button type="submit">Send</button>
     </form>
   </section>
