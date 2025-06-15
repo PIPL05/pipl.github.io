@@ -1,14 +1,14 @@
 css
 body {
   font-family: Arial, sans-serif;
-  background: #F9FBC3; /* light cream */
+  background: #F5F5F5; /* light gray background */
   margin: 0;
   padding: 0;
-  color: #255158; /* deep teal for text */
+  color: #1A237E; /* navy text color */
 }
 header {
-  background: #B3C8CF; /* soft blue */
-  color: #255158;
+  background: #1A237E; /* navy background */
+  color: #FFD700; /* gold text color */
   padding: 30px 0 15px 0;
   text-align: center;
 }
@@ -16,21 +16,21 @@ nav {
   margin-bottom: 20px;
 }
 nav a {
-  color: #255158;
+  color: #FFD700; /* gold links */
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
 }
 nav a:hover {
-  color: #97A97C; /* sage green accent */
+  color: #2196F3; /* accent blue on hover */
 }
 section, .about-content, .products-list, .contact-info {
   max-width: 700px;
   margin: 30px auto;
-  background: #FFFFFF;
+  background: #FFFFFF; /* white background for content cards */
   padding: 25px 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(37,81,88,0.08);
+  box-shadow: 0 2px 8px rgba(26,35,126,0.08); /* subtle navy shadow */
 }
 .stats {
   display: flex;
@@ -39,16 +39,16 @@ section, .about-content, .products-list, .contact-info {
   margin: 30px 0;
 }
 .stats div {
-  background: #E5E1DA; /* light beige */
-  color: #255158;
+  background: #FFD700; /* gold background for stats */
+  color: #1A237E; /* navy text for stats */
   padding: 20px 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(37,81,88,0.08);
+  box-shadow: 0 2px 8px rgba(26,35,126,0.08);
   text-align: center;
 }
 footer {
-  background: #B3C8CF;
-  color: #255158;
+  background: #1A237E; /* navy footer background */
+  color: #FFD700; /* gold footer text */
   text-align: center;
   padding: 15px 0;
   margin-top: 40px;
