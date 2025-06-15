@@ -9,18 +9,22 @@ body {
 header {
   background: #1e3a5c;
   color: #fff;
-  padding: 40px 0 20px 0;
+  padding: 30px 0 15px 0;
   text-align: center;
 }
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
+nav {
+  margin-bottom: 20px;
 }
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
-.intro, .contact {
+nav a:hover {
+  text-decoration: underline;
+}
+section, .about-content, .products-list, .contact-info {
   max-width: 700px;
   margin: 30px auto;
   background: #fff;
@@ -48,10 +52,16 @@ footer {
   padding: 15px 0;
   margin-top: 40px;
 }
+ul {
+  text-align: left;
+}
 @media (max-width: 700px) {
   .stats {
     flex-direction: column;
     gap: 15px;
     align-items: center;
+  }
+  section, .about-content, .products-list, .contact-info {
+    padding: 15px 10px;
   }
 }
