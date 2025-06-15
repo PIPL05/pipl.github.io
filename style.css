@@ -19,7 +19,6 @@ nav a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
-  padding: 10px 15px;
 }
 .hero-slider {
   background: #002b5c;
@@ -27,28 +26,20 @@ nav a {
   text-align: center;
   font-size: 1.5em;
   padding: 40px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 section {
   padding: 40px;
 }
 .products {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .product {
   border: 1px solid #ddd;
   padding: 15px;
-  flex: 1 1 200px;
-  max-width: 220px;
+  width: 200px;
   text-align: center;
-}
-form {
-  max-width: 500px;
-  margin: auto;
 }
 footer {
   background: #003580;
@@ -68,19 +59,4 @@ footer {
   font-size: 18px;
   text-decoration: none;
   text-align: center;
-}
-@media (max-width: 768px) {
-  nav {
-    display: block;
-  }
-  nav a {
-    display: block;
-    margin: 5px 0;
-  }
-  .hero-slider, section {
-    padding: 20px;
-  }
-  .hero-slider {
-    font-size: 1.2em;
-  }
 }
