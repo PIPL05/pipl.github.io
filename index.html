@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
   <title>Prosperitas International Private Limited</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .brand-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      margin-bottom: 10px;
+    }
+    .brand-header img {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgba(26,35,126,0.13);
+      background: #fff;
+    }
+    .brand-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #1A237E;
+      line-height: 1.2;
+      letter-spacing: 1px;
+      text-align: left;
+    }
+    @media (max-width: 600px) {
+      .brand-header {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .brand-title {
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      .brand-header img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-<body>
-  <header>
-    <img src="logo.png" alt="Company Logo" style="height:60px; margin-bottom:10px;">
-    <nav>
-      <!-- navigation links here -->
-    </nav>
-    <h1>Prosperitas International Private Limited</h1>
-    <p>"Fortuna Favet Audaci"</p>
-  </header>
-  <!-- rest of your content -->
-</body>
+    <div class="brand-header">
+      <img src="logo.jpg" alt="Prosperitas Logo">
+      <div class="brand-title">
+        Prosperitas International<br>
+        Private Limited
+      </div>
+    </div>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="products.html">Products</a>
       <a href="contact.html">Contact</a>
     </nav>
+    <p style="margin-top:10px; color: #FFD700; font-size:1.1rem;">Fortuna Favet Audaci</p>
   </header>
-  <section class="intro">
-    <h2>About Us</h2>
-    <p>We are a leading force in manufacturing and trading, supplying APIs, Agro, Metals, Chemicals, and more. With expertise and state-of-the-art infrastructure, we deliver excellence worldwide.</p>
-  </section>
-  <section class="stats">
-    <div>
-      <h3>10+</h3>
-      <p>Years of Operational Excellence</p>
-    </div>
-    <div>
-      <h3>100+</h3>
-      <p>Satisfied Clients</p>
-    </div>
-    <div>
-      <h3>15+</h3>
-      <p>Countries Served</p>
+  <section>
+    <h2>Welcome to Prosperitas International Private Limited</h2>
+    <p>We deliver excellence in APIs, Agro Products, Metals, Chemicals, and Building Materials worldwide.</p>
+    <div class="stats">
+      <div>
+        <strong>10+</strong><br>Years Experience
+      </div>
+      <div>
+        <strong>100+</strong><br>Clients Served
+      </div>
+      <div>
+        <strong>15+</strong><br>Countries Reached
+      </div>
     </div>
   </section>
   <footer>
