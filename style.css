@@ -1,65 +1,67 @@
 
 :root {
-  --primary: #0b3d91;
-  --accent: #f7b731;
-  --text: #333;
-  --bg: #f5f7fa;
+  --primary: #003366;
+  --secondary: #f1c40f;
+  --light: #f9f9f9;
+  --dark: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: var(--bg);
-  color: var(--text);
+  background: var(--light);
+  color: var(--dark);
   line-height: 1.6;
 }
 
 header {
   background: var(--primary);
   color: white;
-  padding: 1rem 0;
   text-align: center;
+  padding: 1.5rem 0;
 }
 
 header img.logo {
-  max-width: 100px;
-  margin-bottom: 0.5rem;
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 nav {
-  margin-top: 0.5rem;
+  margin-top: 10px;
 }
 
 nav a {
   color: white;
-  margin: 0 1rem;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: var(--accent);
-}
-
-section {
-  padding: 2rem;
-  max-width: 1100px;
-  margin: auto;
+  color: var(--secondary);
 }
 
 .hero {
-  background: linear-gradient(rgba(11,61,145,0.85), rgba(11,61,145,0.85)), url('../img/hero.jpg') center/cover no-repeat;
+  background: url('../img/hero.jpg') no-repeat center center/cover;
   color: white;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
-.hero p {
-  font-size: 1.2rem;
+section {
+  padding: 3rem 2rem;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .products {
@@ -71,37 +73,33 @@ section {
 .product-card {
   background: white;
   border: 1px solid #ccc;
-  padding: 1rem;
   border-radius: 10px;
+  padding: 1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-
-.product-card:hover {
-  transform: scale(1.02);
 }
 
 footer {
   background: var(--primary);
   color: white;
   text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+  padding: 1.2rem;
+  margin-top: 3rem;
 }
 
 form input, form textarea {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.75rem;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
   border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 form button {
-  background: var(--primary);
-  color: white;
+  background: var(--secondary);
+  color: black;
   border: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
   cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
 }
