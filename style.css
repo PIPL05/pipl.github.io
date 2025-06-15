@@ -1,14 +1,14 @@
 css
 body {
   font-family: Arial, sans-serif;
-  background: #f4f6f8;
+  background: #F9FBC3; /* light cream */
   margin: 0;
   padding: 0;
-  color: #222;
+  color: #255158; /* deep teal for text */
 }
 header {
-  background: #1e3a5c;
-  color: #fff;
+  background: #B3C8CF; /* soft blue */
+  color: #255158;
   padding: 30px 0 15px 0;
   text-align: center;
 }
@@ -16,21 +16,21 @@ nav {
   margin-bottom: 20px;
 }
 nav a {
-  color: #fff;
+  color: #255158;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
 }
 nav a:hover {
-  text-decoration: underline;
+  color: #97A97C; /* sage green accent */
 }
 section, .about-content, .products-list, .contact-info {
   max-width: 700px;
   margin: 30px auto;
-  background: #fff;
+  background: #FFFFFF;
   padding: 25px 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(30,58,92,0.08);
+  box-shadow: 0 2px 8px rgba(37,81,88,0.08);
 }
 .stats {
   display: flex;
@@ -39,15 +39,16 @@ section, .about-content, .products-list, .contact-info {
   margin: 30px 0;
 }
 .stats div {
-  background: #fff;
+  background: #E5E1DA; /* light beige */
+  color: #255158;
   padding: 20px 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(30,58,92,0.08);
+  box-shadow: 0 2px 8px rgba(37,81,88,0.08);
   text-align: center;
 }
 footer {
-  background: #1e3a5c;
-  color: #fff;
+  background: #B3C8CF;
+  color: #255158;
   text-align: center;
   padding: 15px 0;
   margin-top: 40px;
